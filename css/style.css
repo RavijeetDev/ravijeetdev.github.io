@@ -154,43 +154,6 @@ body {
     background: #F9F9F9;
 }
 
-main {
-    width: 75%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.header-section {
-    position: relative;
-    background-image: linear-gradient(to right, #1f24389a, #3e4a779a, #7384c393), url(../images/cover-pic.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 65vh;
-}
-
-.heading-container {
-    width: 40%;
-    position: absolute;
-    background-color: #f7f7f826;
-    left: 8%;
-    bottom: 10%;
-    padding: 4rem;
-}
-
-.heading-container h1 {
-    font-family: 'Raleway', sans-serif;
-    color: #ffffff;
-    font-size: 5rem;
-    font-weight: 700;
-}
-
-.heading-container p {
-    color: #ffffff;
-    margin-top: 1rem;
-    font-size: 2.5rem;
-    font-weight: 400;
-}
-
 button {
     background-image: linear-gradient(to right, #5B6AA2, #5767a1, #5666a0);
     border: 0;
@@ -202,401 +165,493 @@ button {
     margin-top: 2rem;
 }
 
-.header-section img {
-    grid-column: 2/3;
-    width: 45%;
-    margin-right: 4.5rem;
-    justify-self: center;
-    align-self: center;
-}
-
-.about-section {
-    margin: 8rem 0 11rem 0;
-}
-
-.heading {
-    font-size: 3.6rem;
-    font-weight: 700;
-    margin-left: 10rem;
-    font-family: 'Raleway', sans-serif;
-    color: #3A3C45;
-}
-
-.heading-line {
-    margin-top: 1.5rem;
-    margin-left: 7rem;
-    background: #5B6AA2;
-    height: 0.3rem;
-    width: 38rem;
-}
-
-.about-container {
-    width: 90%;
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 45% 55%;
-    margin-top: 6rem;
-}
-
-.about-container img {
-    grid-column: 1/2;
-    width: 55%;
-    justify-self: center;
-}
-
-.about-paragraph {
-    grid-column: 2/3;
-    padding: 4rem 0 4rem 0;
-    font-size: 2rem;
-    color: #464646;
-    align-self: center;
-}
-
-.skills-section {
-    display: grid;
-}
-
-.skills-heading-container {
-    margin-right: 7rem;
-}
-
-.skills-section .heading {
-    margin-right: 3rem;
-}
-
-.skills-container {
-    justify-self: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    margin: 8rem auto 6rem;
-}
-
-.skill {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 20% 80%;
-    margin-bottom: 3.5rem;
-}
-
-.skill-name {
-    font-weight: 400;
-    font-size: 1.9rem;
-    color: #465E80;
-}
-
-.default-bar {
-    align-self: center;
-    width: 35rem;
-    height: 1.1rem;
-    background-color: #EDEDED;
-}
-
-.skill-bar {
-    height: 100%;
-    background: linear-gradient(to right, #6986C7, #4D6190);
-}
-
-.skill-even {
-    margin-left: 10rem;
-}
-
-.skill-bar-android {
-    width: 99%;
-}
-
-.skill-bar-java {
-    width: 92%;
-}
-
-.skill-bar-javascript {
-    width: 85%;
-}
-
-.skill-bar-html {
-    width: 85%;
-}
-
-.skill-bar-css {
-    width: 85%;
-}
-
-.skill-bar-mysql {
-    width: 85%;
-}
-
-.skill-bar-kotlin {
-    width: 77%;
-}
-
-.skill-bar-sass {
-    width: 60%;
-}
-
-.skill-bar-jquery {
-    width: 60%;
-}
-
-.skill-bar-cc {
-    width: 45%;
-}
-
-.skill-bar-swift {
-    width: 40%;
-}
-
-.skill-bar-react {
-    width: 30%;
-}
-
-.softwares {
-    width: 80%;
-    margin: 10rem auto 6rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-}
-
-.software-container {
-    display: grid;
-    height: 11rem;
-    grid-template-rows: 90% 10%;
-    align-self: center;
-    margin-bottom: 8rem;
-}
-
-.software-container img {
-    justify-self: center;
-    align-self: center;
-    width: 8.5rem;
-    height: auto;
-}
-
-.software-name {
-    font-weight: 700;
-    justify-self: center;
-    margin-top: 1rem;
-    font-size: 1.2rem;
-}
-
-.software-android .software-name {
-    color: #82B74B;
-}
-
-.software-firebase .software-name {
-    color: #F68223;
-}
-
-.software-github .software-name {
-    color: black;
-}
-
-.software-jira .software-name {
-    color: #264970;
-}
-
-.software-git .software-name {
-    color: #F05133;
-}
-
-.software-aws .software-name {
-    color: #252F3E;
-}
-
-.software-xcode .software-name {
-    color: #1581FC;
-}
-
-.software-xd .software-name {
-    color: #470337;
-}
-
-.software-photoshop .software-name {
-    color: #011E36;
-}
-
-.software-illustrator .software-name {
-    color: #330001;
-}
-
-.form-container {
-    margin: 5rem 11rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-}
-
-.form-heading {
-    grid-column: 1/3;
-    grid-row: 1/2;
-    font-family: 'Raleway', sans-serif;
-    color: #5B6AA2;
-    font-size: 4.5rem;
-    font-weight: 700;
-    margin-bottom: 4rem;
-}
-
-.form-input-container {
-    display: flex;
-    flex-flow: column nowrap;
-}
-
-.form-name-container {
-    grid-column: 1/2;
-    grid-row: 2/3;
-    margin-right: 4rem;
-}
-
-.form-email-container {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    margin-left: 4rem;
-}
-
-.form-message-container {
-    margin-top: 3rem;
-    grid-column: 1/3;
-    grid-row: 3/4;
-}
-
-label {
-    font-size: 2.3rem;
-    color: #5B6AA2;
-    margin-bottom: 1rem;
-}
-
-input, textarea {
-    width: 100%;
-    border: 0.05rem solid #cccccc;
-    border-radius: 0;
-    padding: 2rem;
-    font-size: 1.8rem;
-}
-
-textarea {
-    resize: none;
-}
-
-.form-container button {
-    grid-column: 1/3;
-    margin-top: 3rem;
-    justify-self: center;
-}
-
-.footer-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 2.5rem 5rem;
-    background: #5B6AA2;
-}
-
-.footer-section a {
-    color: #ffffffd3;
-    text-decoration: none;
-    font-size: 2rem;
-    align-self: center;
-}
-
-.site-links {
-    display: flex;
-    justify-content: flex-end;
-    align-self: center;
-}
-
-.footer-section svg {
-    fill: #ffffffd3;
-    width: 4rem;
-    margin-left: 5rem;
-}
-
-/* main h1 {
-    margin: 5rem 0 0 0;
-    text-align: center;
-    color: #465E80;
-    font-size: 4.5rem;
-} */
-
-.projects .heading {
-    margin-top: 5rem;
-    font-size: 3.5rem;
-}
-
-.project {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    margin: 5rem 10rem 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.226);
-    border-radius: 6px;
-}
-
-.project-image-container {
-    display: grid;
-    background: linear-gradient(to right bottom, #ffffff73, #ffffff85), url(../images/project-background.png);
-    background-size: cover;
-}
-
-.project-image-container img {
-    justify-self: center;
-    margin: 3rem 5rem;
-    height: 450px;
-}
-
-.project-description-container {
-    background: white;
-    padding: 7rem;
-    display: flex;
-    flex-flow: column nowrap;
-    grid-template-rows: auto;
-}
-
-.project-heading {
-    font-size: 3rem;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    color: #465E80;
-}
-
-.project-subheading {
-    font-size: 1.3rem;
-    font-weight: 500;
-    color: #465E80;
-    margin-top: 0.3rem;
-}
-
-.project-description {
-    margin-top: 2rem;
-    font-size: 1.5rem;
-    color: #707070;
-}
-
-.project-see-more {
-    margin-top: 2rem;
-    color: #365177;
-    font-size: 1.6rem;
-    align-self: flex-end;
-}
-
-.academic-container {
-    margin-top: 10rem;
-}
-
-.academic-project-1 img, .academic-project-2 img {
-    align-self: center;
-    width: 80%;
-    height: auto;
-}
-
-.academic-container {
-    margin-bottom: 5rem;
-}
-
-.project-container {
-    margin: 10rem 7rem;
-}
-
-.project-introduction {
-    margin: 4rem 10rem;
-    font-size: 1.5rem;
-    color: #707070;
+@media screen and (min-width: 1081px) {
+    main {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .header-section {
+        position: relative;
+        /* background-image: url(../images/cover-pic.jpg); */
+        /* background-image: linear-gradient(to right, #1f24389a, #3e4a779a, #7384c393), url(../images/cover-pic.jpg); */
+        background-image: linear-gradient(to right, #1f24389a, #3e4a7770, rgba(255, 255, 255, 0)), url(../images/cover-pic.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 85vh;
+    }
+    .nav-big {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        padding: 3rem 8rem;
+        background: linear-gradient(#00000056, #00000000);
+    }
+    .nav-big ul {
+        list-style: none;
+    }
+    .nav-big ul li {
+        display: inline;
+        margin-left: 6rem;
+        font-size: 2rem;
+        color: #ffffff;
+        font-weight: 400;
+    }
+    .heading-container {
+        width: 40%;
+        position: absolute;
+        background-color: #f7f7f850;
+        left: 6%;
+        bottom: 8%;
+        padding: 3rem;
+    }
+    .heading-container h1 {
+        font-family: 'Raleway', sans-serif;
+        color: #ffffff;
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    .heading-container p {
+        color: #ffffff;
+        margin-top: 1rem;
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+    .about-section {
+        margin: 4rem 0 8rem 0;
+    }
+    .heading {
+        font-size: 3.4rem;
+        font-weight: 700;
+        margin-left: 10rem;
+        font-family: 'Raleway', sans-serif;
+        color: #3A3C45;
+    }
+    .heading-line {
+        margin-top: 1.2rem;
+        margin-left: 7rem;
+        background: #5B6AA2;
+        height: 0.3rem;
+        width: 38rem;
+    }
+    .about-container {
+        width: 90%;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 45% 55%;
+        margin-top: 4rem;
+    }
+    .about-container img {
+        grid-column: 1/2;
+        width: 60%;
+        justify-self: center;
+        align-self: center;
+    }
+    .about-header {
+        font-size: 2.3rem;
+    }
+    .about-paragraph {
+        grid-column: 2/3;
+        font-size: 1.6rem;
+        color: #464646;
+        align-self: center;
+    }
+    .skills-section {
+        display: grid;
+    }
+    .skills-container {
+        justify-self: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin: 6rem auto;
+    }
+    .skill {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 30% 70%;
+        margin-bottom: 3.5rem;
+    }
+    .skill-name {
+        font-weight: 400;
+        font-size: 1.9rem;
+        color: #465E80;
+    }
+    .default-bar {
+        align-self: center;
+        width: 35rem;
+        height: 1.1rem;
+        background-color: #EDEDED;
+    }
+    .skill-bar {
+        height: 100%;
+        background: linear-gradient(to right, #6986C7, #4D6190);
+    }
+    .skill-even {
+        margin-left: 10rem;
+    }
+    .skill-bar-android {
+        width: 100%;
+    }
+    .skill-bar-java {
+        width: 90%;
+    }
+    .skill-bar-kotlin {
+        width: 70%;
+    }
+    .skill-bar-javascript {
+        width: 80%;
+    }
+    .skill-bar-swift {
+        width: 60%;
+    }
+    .skill-bar-objectivec {
+        width: 40%;
+    }
+    .skill-bar-mysql {
+        width: 40%;
+    }
+    .skill-bar-linux {
+        width: 50%;
+    }
+    .skill-bar-cc {
+        width: 40%;
+    }
+    .skill-bar-lua {
+        width: 60%;
+    }
+    .framework-section .heading-line {
+        width: 55rem;
+    }
+    .softwares {
+        width: 80%;
+        margin: 6rem auto 6rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .software-container {
+        display: grid;
+        height: 11rem;
+        grid-template-rows: 90% 10%;
+        align-self: center;
+        margin-bottom: 6rem;
+    }
+    .software-container img {
+        justify-self: center;
+        align-self: center;
+        width: 8.5rem;
+        height: auto;
+    }
+    .software-name {
+        font-weight: 700;
+        justify-self: center;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+    }
+    .software-android .software-name {
+        color: #82B74B;
+    }
+    .software-firebase .software-name {
+        color: #F68223;
+    }
+    .software-github .software-name {
+        color: black;
+    }
+    .software-jira .software-name {
+        color: #264970;
+    }
+    .software-git .software-name {
+        color: #F05133;
+    }
+    .software-aws .software-name {
+        color: #252F3E;
+    }
+    .software-xcode .software-name {
+        color: #1581FC;
+    }
+    .software-unity .software-name {
+        color: #222C37;
+    }
+    .software-libGDX .software-name {
+        color: #000000;
+    }
+    .software-corona .software-name {
+        color: #FA8032;
+    }
+    .form-container {
+        width: 70%;
+        margin: 5rem auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    .form-heading {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        font-family: 'Raleway', sans-serif;
+        color: #5B6AA2;
+        font-size: 3.8rem;
+        font-weight: 700;
+        margin-bottom: 3rem;
+    }
+    .form-input-container {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .form-name-container {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        margin-right: 4rem;
+    }
+    .form-email-container {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin-left: 4rem;
+    }
+    .form-message-container {
+        margin-top: 3rem;
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    label {
+        font-size: 2rem;
+        color: #5B6AA2;
+        margin-bottom: 1rem;
+    }
+    input, textarea {
+        width: 100%;
+        border: 0.05rem solid #cccccc;
+        border-radius: 0;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+    textarea {
+        resize: none;
+    }
+    .form-container button {
+        grid-column: 1/3;
+        margin-top: 3rem;
+        justify-self: center;
+    }
+    .footer-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 2.5rem 5rem;
+        background: #5B6AA2;
+    }
+    .footer-section a {
+        color: #ffffffd3;
+        text-decoration: none;
+        font-size: 2rem;
+        align-self: center;
+    }
+    .site-links {
+        display: flex;
+        justify-content: flex-end;
+        align-self: center;
+    }
+    .footer-section svg {
+        fill: #ffffffd3;
+        width: 4rem;
+        margin-left: 5rem;
+    }
+    /* .projects .heading {
+        margin-top: 5rem;
+        font-size: 3.5rem;
+    }
+    .project {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        margin: 5rem 10rem 0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.226);
+        border-radius: 6px;
+    }
+    .project-image-container {
+        display: grid;
+        background: linear-gradient(to right bottom, #ffffff73, #ffffff85), url(../images/project-background.png);
+        background-size: cover;
+    }
+    .project-image-container img {
+        justify-self: center;
+        margin: 3rem 5rem;
+        height: 450px;
+    }
+    .project-description-container {
+        background: white;
+        padding: 7rem;
+        display: flex;
+        flex-flow: column nowrap;
+        grid-template-rows: auto;
+    }
+    .project-heading {
+        font-size: 3rem;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        color: #465E80;
+    }
+    .project-subheading {
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: #465E80;
+        margin-top: 0.3rem;
+    }
+    .project-description {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        color: #707070;
+    }
+    .project-see-more {
+        margin-top: 2rem;
+        color: #365177;
+        font-size: 1.6rem;
+        align-self: flex-end;
+    }
+    .academic-container {
+        margin-top: 10rem;
+    }
+    .academic-project-1 img, .academic-project-2 img {
+        align-self: center;
+        width: 80%;
+        height: auto;
+    }
+    .academic-container {
+        margin-bottom: 5rem;
+    }
+    .project-container {
+        margin: 10rem 7rem;
+    }
+    .project-introduction {
+        margin: 4rem 10rem;
+        font-size: 1.5rem;
+        color: #707070;
+    } */
+}
+
+@media screen and (min-width: 1950px) {
+    main {
+        width: 75%;
+    }
+    .header-section {
+        height: 65vh;
+    }
+    .heading-container {
+        left: 8%;
+        bottom: 10%;
+        padding: 4rem;
+    }
+    .heading-container h1 {
+        font-size: 5rem;
+    }
+    .heading-container p {
+        font-size: 2.5rem;
+    }
+    .about-section {
+        margin: 8rem 0 11rem 0;
+    }
+    .heading {
+        font-size: 3.6rem;
+    }
+    .heading-line {
+        margin-top: 1.5rem;
+    }
+    .about-container {
+        margin-top: 6rem;
+    }
+    .about-paragraph {
+        padding: 4rem 0 4rem 0;
+        font-size: 2rem;
+    }
+    .skills-container {
+        margin: 8rem auto 6rem;
+    }
+    .softwares {
+        margin: 10rem auto 6rem;
+    }
+    .software-container {
+        margin-bottom: 8rem;
+    }
+    .form-heading {
+        font-size: 4.5rem;
+        margin-bottom: 4rem;
+    }
+    label {
+        font-size: 2.3rem;
+    }
+    input, textarea {
+        padding: 2rem;
+        font-size: 1.8rem;
+    }
+    .projects .heading {
+        margin-top: 5rem;
+        font-size: 3.5rem;
+    }
+    .project {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        margin: 5rem 10rem 0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.226);
+        border-radius: 6px;
+    }
+    .project-image-container {
+        display: grid;
+        background: linear-gradient(to right bottom, #ffffff73, #ffffff85), url(../images/project-background.png);
+        background-size: cover;
+    }
+    .project-image-container img {
+        justify-self: center;
+        margin: 3rem 5rem;
+        height: 450px;
+    }
+    .project-description-container {
+        background: white;
+        padding: 7rem;
+        display: flex;
+        flex-flow: column nowrap;
+        grid-template-rows: auto;
+    }
+    .project-heading {
+        font-size: 3rem;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        color: #465E80;
+    }
+    .project-subheading {
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: #465E80;
+        margin-top: 0.3rem;
+    }
+    .project-description {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        color: #707070;
+    }
+    .project-see-more {
+        margin-top: 2rem;
+        color: #365177;
+        font-size: 1.6rem;
+        align-self: flex-end;
+    }
+    .academic-container {
+        margin-top: 10rem;
+    }
+    .academic-project-1 img, .academic-project-2 img {
+        align-self: center;
+        width: 80%;
+        height: auto;
+    }
+    .academic-container {
+        margin-bottom: 5rem;
+    }
+    .project-container {
+        margin: 10rem 7rem;
+    }
+    .project-introduction {
+        margin: 4rem 10rem;
+        font-size: 1.5rem;
+        color: #707070;
+    }
 }
