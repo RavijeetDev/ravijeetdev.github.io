@@ -335,6 +335,13 @@ main {
     grid-template-rows: 1fr 1fr;
 }
 
+.location-timing .location {
+    align-self: center;
+    font-size: 1.8rem;
+    color: #707070;
+    justify-self: right;
+}
+
 .location-timing .timing {
     align-self: center;
     font-size: 1.8rem;
