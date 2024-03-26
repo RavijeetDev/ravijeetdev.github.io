@@ -335,7 +335,7 @@ main {
     grid-template-rows: 1fr 1fr;
 }
 
-.location-timing .location {
+.section-experience .location-timing .location {
     align-self: center;
     font-size: 1.8rem;
     color: #707070;
